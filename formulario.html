@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário </h1>
+    <form>
+        <label for="campo nome">Nome:</label>
+        <input id="campo nome" type="text" placeholder="digite seu nome" required>
+        <label for="campo senha">Senha:</label>
+        <input id="campo senha" type="password" placeholder="digite sua senha" required><br>
+        <label for="campo email">Email:</label>
+        <input id="campo email" type="email" placeholder="digite seu email" required>
+        <br><br>
+        <h2>ANIMAIS</h2>
+        <input type="radio" id ="dog"name="animal" value="doguinhos"> <label for= "dog">cachorro</label><br><br>
+        <input type="radio" id ="cat"name="animal" value="gatinhos"> <label for= "cat">gato</label><br><br>
+        <br><br>
+        <h2>o ce tem em casa?</h2>
+        <input id="item1" type="checkbox" name="item1" value="TV"><label for="item1">Tv</label>
+        <input id="item2" type="checkbox" name="item2" value="rato"><label for="item2">rato</label>
+        <br>
+        <h2>escolha uma cor</h2>
+        <select name="cores">
+            <option  value="vermelho">Vermelho</option>
+            <option  value="azul">azul</option>
+        </select>
+        <br>
+        <h2>digite uma mensagem</h2>
+        <br>
+        <textarea placeholder="digite sua mensagem" rows="15" cols="55">texto de exemplo</textarea>
+        <input type="submit" value="enviar formulário">
+        <button></button>
+    </form><br>
+    <hr><br>
+    <a href = "index2.html">voltar para principal</a>
+</body>
+</html>
